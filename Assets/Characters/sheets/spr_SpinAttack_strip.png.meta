@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -33,27 +33,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,18 +115,678 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfada7b95ebc7d34db9efc93bc1ec8f4
+      internalID: 1286495144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f79685387ffb64498744574fc76e22d
+      internalID: 290197055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_2
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796393a338506944a9455584d177709d
+      internalID: 302028791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_3
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201514179c4faf74c869bd93ff39446c
+      internalID: -705525504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_4
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 20
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30b9f6b2f0d655408a5266e8f799d06
+      internalID: 306859640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_5
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 20
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce20f451c94eecc40b9f105a80102f15
+      internalID: -2077821160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_6
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 20
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08effaeb9ecbba4987789e123cb90f6
+      internalID: -1875117035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_7
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 20
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cab138da404284d96e0fe9d9829fee
+      internalID: 1175715145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_8
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 20
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3c771088c029447a5ec4ff377e7c73
+      internalID: -633858610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_9
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 20
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323a6d12bb469a641ad87009b52bdb5b
+      internalID: 1366984018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_10
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 20
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab25d8fab1e31147ac1fc58e0c2e0af
+      internalID: -533129017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_11
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 20
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c885ae1312620fa4fb222e5663a6411f
+      internalID: 37250008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_12
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 20
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac486dd38c86354892c09d9b15bf4c2
+      internalID: 1707473100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_13
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 20
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f150583bb88c50b41900c73afaf8bfc9
+      internalID: 567918650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_14
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 20
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406cf6f7e5f9acc4f9fa90d50aa30e95
+      internalID: -1942204679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_15
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 20
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453f5f765de9af642bc004f11b673496
+      internalID: 1585004946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_16
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 20
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6200c15bd53513845828521f2b79100d
+      internalID: 1942484056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_17
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 20
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca927b9e2c7e362458a988020a08e2b0
+      internalID: 273067431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_18
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 20
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63a03344eb8d3743915a2e04b52d302
+      internalID: -1523925274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_19
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 20
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1f36c117fa0a04c96d9f2a5179753b
+      internalID: 1270929472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_20
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 20
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcf6c18bbaf3f648a18de6fb4f8e408
+      internalID: 1076270156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_21
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 20
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc863378559bcd43a2401da166872e0
+      internalID: 2069806252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_22
+      rect:
+        serializedVersion: 2
+        x: 3831
+        y: 20
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fbd0a19c147da4ebe51f9ab3ba9361
+      internalID: 1213914140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_23
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 20
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667457eb603783d469491f5419c05781
+      internalID: -1776945769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_24
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 20
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3a6659226194442b8e69508dafd0b5
+      internalID: -817630081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_25
+      rect:
+        serializedVersion: 2
+        x: 4347
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfc964476da033438eccfd0226b5fb5
+      internalID: -1829581994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_26
+      rect:
+        serializedVersion: 2
+        x: 4517
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b995c646eb085c84a828df31f7f108e7
+      internalID: -1520747068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_27
+      rect:
+        serializedVersion: 2
+        x: 4687
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693bd932c342b35488ef0f680240d2f5
+      internalID: -107893718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_28
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e2bf555e535b4f8e9beb8d2980dda
+      internalID: -864945286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_SpinAttack_strip_29
+      rect:
+        serializedVersion: 2
+        x: 5027
+        y: 20
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6caa5127f71a14f918a6aaaf85198a
+      internalID: 667955436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 417eb138b14230141951441b2088c00d
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_SpinAttack_strip_0: 1286495144
+      spr_SpinAttack_strip_1: 290197055
+      spr_SpinAttack_strip_10: -533129017
+      spr_SpinAttack_strip_11: 37250008
+      spr_SpinAttack_strip_12: 1707473100
+      spr_SpinAttack_strip_13: 567918650
+      spr_SpinAttack_strip_14: -1942204679
+      spr_SpinAttack_strip_15: 1585004946
+      spr_SpinAttack_strip_16: 1942484056
+      spr_SpinAttack_strip_17: 273067431
+      spr_SpinAttack_strip_18: -1523925274
+      spr_SpinAttack_strip_19: 1270929472
+      spr_SpinAttack_strip_2: 302028791
+      spr_SpinAttack_strip_20: 1076270156
+      spr_SpinAttack_strip_21: 2069806252
+      spr_SpinAttack_strip_22: 1213914140
+      spr_SpinAttack_strip_23: -1776945769
+      spr_SpinAttack_strip_24: -817630081
+      spr_SpinAttack_strip_25: -1829581994
+      spr_SpinAttack_strip_26: -1520747068
+      spr_SpinAttack_strip_27: -107893718
+      spr_SpinAttack_strip_28: -864945286
+      spr_SpinAttack_strip_29: 667955436
+      spr_SpinAttack_strip_3: -705525504
+      spr_SpinAttack_strip_4: 306859640
+      spr_SpinAttack_strip_5: -2077821160
+      spr_SpinAttack_strip_6: -1875117035
+      spr_SpinAttack_strip_7: 1175715145
+      spr_SpinAttack_strip_8: -633858610
+      spr_SpinAttack_strip_9: 1366984018
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
