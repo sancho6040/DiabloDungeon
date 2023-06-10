@@ -55,7 +55,6 @@ public class PlayerScript : MonoBehaviour
     }
     void resetMovement()
     {
-        Debug.Log("reset");
         GameManager.Instance.bIsPlayerTurn = false;
         //animator.SetBool("Moving", false);
     }
