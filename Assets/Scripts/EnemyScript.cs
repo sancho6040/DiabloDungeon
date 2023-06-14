@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using Unity.Burst.CompilerServices;
 
 
 public class EnemyScript : MonoBehaviour
@@ -18,12 +19,12 @@ public class EnemyScript : MonoBehaviour
     private void Awake()
     {
         player = GameObject.Find("Player").GetComponent<PlayerScript>();
-        GameManager.Instance.AddEnemy(gameObject.GetComponent<EnemyScript>());
+        GameManager.EnemiesTurn += DoYaThing;
     }
 
     public void DoYaThing()
     {
-        if(bIsPlayerNear)
+        if (bIsPlayerNear)
         {
             Attack();
             return;
@@ -34,25 +35,41 @@ public class EnemyScript : MonoBehaviour
 
     public void Move()
     {
-        int direction = Random.Range(1, 5);
-
-        switch (direction)
+        if ((Random.Range(1, 3) % 1) == 0)
         {
-            case 1:
-                transform.DOMoveX(transform.position.x + step, speed);
-                break;
 
-            case 2:
-                transform.DOMoveX(transform.position.x - step, speed);
-                break;
+            int direction = Random.Range(1, 5);
 
-            case 3:
-                transform.DOMoveZ(transform.position.z + step, speed);
-                break;
+            switch (direction)
+            {
+                case 1:
+                    if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), 5f))
+                    {
+                        transform.DOMoveX(transform.position.x + step, speed);
+                    }
+                    break;
 
-            case 4:
-                transform.DOMoveZ(transform.position.z - step, speed);
-                break;
+                case 2:
+                    if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector3.back), 5f))
+                    {
+                        transform.DOMoveX(transform.position.x - step, speed);
+                    }
+                    break;
+
+                case 3:
+                    if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left), 5f))
+                    {
+                        transform.DOMoveZ(transform.position.z + step, speed);
+                    }
+                    break;
+
+                case 4:
+                    if (!Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), 5f))
+                    {
+                        transform.DOMoveZ(transform.position.z - step, speed);
+                    }
+                    break;
+            }
         }
     }
 
@@ -76,7 +93,7 @@ public class EnemyScript : MonoBehaviour
 
     public void Die()
     {
-        GameManager.Instance.RemoveEnemy(this);
+        GameManager.EnemiesTurn -= DoYaThing;
         Destroy(gameObject, 1f);
     }
 

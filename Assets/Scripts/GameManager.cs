@@ -8,7 +8,10 @@ public class GameManager : MonoBehaviour
 
     public bool bIsPlayerTurn;
 
-    public List<EnemyScript> enemiesList = new List<EnemyScript>();
+    public delegate void OnEnemiesTurn();
+    public static event OnEnemiesTurn EnemiesTurn;
+
+    //public List<EnemyScript> enemiesList = new List<EnemyScript>();
 
     private void Awake()
     {
@@ -23,23 +26,12 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if(!bIsPlayerTurn)
+        if (!bIsPlayerTurn)
         {
-            foreach(EnemyScript enemy in enemiesList)
-            {
-                enemy.DoYaThing();
-            }
+            EnemiesTurn?.Invoke();
             bIsPlayerTurn = true;
+
         }
     }
 
-    public void AddEnemy(EnemyScript inEnemy)
-    {
-        enemiesList.Add(inEnemy);
-    }
-
-    public void RemoveEnemy(EnemyScript inEnemy)
-    {
-        enemiesList.Remove(inEnemy);
-    }
 }
